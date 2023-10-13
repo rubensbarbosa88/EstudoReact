@@ -1,0 +1,16 @@
+.my-form-component form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.my-form-component label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.my-form-component input, select, textarea {
+    display: block;
+    margin-top: 5px;
+
+}
