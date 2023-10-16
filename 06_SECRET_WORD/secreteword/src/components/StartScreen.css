@@ -1,11 +1,4 @@
-h1.title {
-  font-size: 3rem;
-  color: white;
-  text-shadow: 1px 1px 0 black;
-  margin-bottom: 0;
-}
-
-p.subtitle {
+p.subtitle-yellow {
   color: yellow;
   text-shadow: 1px 1px 0 black;
 }

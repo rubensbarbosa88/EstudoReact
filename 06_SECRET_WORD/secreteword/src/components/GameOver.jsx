@@ -1,11 +1,11 @@
-import React from 'react'
-
-const GameOver = ({ changeStage }) => {
+const GameOver = ({ score, retry }) => {
   return (
     <>
-      <div>GameOver</div>
+      <div>Fim de Jogo</div>
 
-      <button className="screen-btn" onClick={() => changeStage('start')}> Resetar Jogo</button>
+      <p style={{fontSize: '1.4rem', color: 'white'}}> Sua pontuação foi: <span style={{color: 'yellow'}}>{score}</span></p>
+
+      <button className="screen-btn" onClick={retry}> Jogar novamente</button>
     </>
   )
 }

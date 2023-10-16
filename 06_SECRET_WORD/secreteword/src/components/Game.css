@@ -1,0 +1,48 @@
+.points {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+p.subtitle {
+  font-size: 1.4rem;
+  color: white;
+}
+
+p.subtitle .tip {
+  color: yellow;
+  text-shadow: 1px 1px 0 black;
+}
+
+.wordContainer {
+  border: 10px solid yellow;
+  margin: 0 auto;
+  width:fit-content;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.wordContainer .letterContainer {
+  border: 3px solid black;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.wordContainer .letterContainer span {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+form input {
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  border:2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
