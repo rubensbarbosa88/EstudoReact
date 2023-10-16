@@ -1,0 +1,16 @@
+button.screen-btn {
+  background-color: #0066b2;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 35px;
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button.screen-btn:hover {
+  background-color: #002D62;
+}
+
