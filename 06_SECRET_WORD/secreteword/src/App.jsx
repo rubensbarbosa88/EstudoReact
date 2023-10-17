@@ -53,11 +53,11 @@ function App() {
   const clearTryLetters = () => {
     setGuessedLetters([])
     setWrongLetters([])
+    setGuesses(5)
   }
 
   const retry = () => {
     setScore(0)
-    setGuesses(5)
 
     setGameStage(stages.start)
   }
@@ -69,11 +69,16 @@ function App() {
       return
     }
 
-    console.log(letters)
-    const unique = [...new Set(letters)]
-    if (guessedLetters.length === unique.length) {
-      setScore(value => value + 100)
-      clearTryLetters()
+
+    if (guessedLetters.length >=1){
+      const unique = [...new Set(letters)]
+
+      if (guessedLetters.length === unique.length) {
+        setScore(value => value + 100)
+        clearTryLetters()
+        startGame()
+        return
+      }
     }
   }, [guesses, guessedLetters])
 
